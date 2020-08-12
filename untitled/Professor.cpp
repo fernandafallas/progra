@@ -27,7 +27,7 @@ void Professor::setSalary(double salary){
 
 string Professor::toString() const{
     stringstream s;
-    s << "Professor :\n" << Person::toString() << "Monthly Salary: " << getSalary() << endl;
+    s << "Professor :\n" << Person::toString() << "Salary: " << getSalary() << endl;
     return s.str();
 }
 
