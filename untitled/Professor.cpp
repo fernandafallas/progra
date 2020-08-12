@@ -14,7 +14,7 @@ Professor::Professor(double salary) {
 }
 
 Professor::Professor(const string& name, string& id, double ) : Person (name, id){
-    this-salary = salary;
+    this->salary = salary;
 }
 
 double Professor::getSalary(){
